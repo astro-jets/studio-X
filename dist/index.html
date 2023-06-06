@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio X</title>
+    <link href="images/logo.png" rel="icon" />
+    <link href="images/logo.png" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body class="bg-dark">
+    <section class="music-player col-12 hide">
+      <audio-player></audio-player>
+    </section>
+
+    <main id="mainContent" class="col-12">
+      <header class="bg-secondary">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container">
+            <a href="index.html" class="navbar-brand">
+              <h1 class="text-light text-lg font-primary">
+                Studio <span class="text-primary">X</span>
+              </h1>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navmenu"
+            >
+              <span class="icon" id="toggle">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto">
+                <li class="navbar-item">
+                  <a href="#" class="nav-link text-primary">
+                    <i class="fas fa-question"></i>
+                    Store
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="playlist.html" class="nav-link text-primary">
+                    Playlist
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="events.html" class="nav-link text-primary">
+                    Events
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="blogs.html" class="nav-link text-primary"> Blog </a>
+                </li>
+
+                <div class="navbar-item hide-lg">
+                  <button class="btn outline btn-primary text-light col-9">
+                    <i class="fas fa-user mx-2"></i>
+                    Log In or Register
+                  </button>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="search-bar">
+        <form action="index.html" method="POST">
+          <input type="text" placeholder="search" class="search" id="search" />
+
+          <button type="submit" class="btn off">
+            <i class="fas fa-search text-dark"></i>
+          </button>
+        </form>
+      </div>
+
+      <section class="top-section col-12 mb-2">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/blog-1.jpg" class="d-block w-100" alt="" />
+              <div class="carousel-caption col-sm-12 d-md-block">
+                <h5>Meet Dkez Walker</h5>
+                <p class="text-start">
+                  Some representative placeholder content for the third slide...
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/blog-2.jpg" class="d-block w-100" alt="" />
+              <div class="carousel-caption col-sm-12 d-md-block">
+                <h5>Third slide label</h5>
+                <p class="text-start">
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/blog-3.jpg" class="d-block w-100" alt="" />
+              <div class="carousel-caption col-sm-12 d-md-block">
+                <h5>Third slide label</h5>
+                <p class="text-start">
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="music-list col-12 py-3 mb-2">
+        <div class="container">
+          <h2 class="text-center text-primary">Trending</h2>
+          <div class="music-item flex px-2 ac mb-2 .col-lg-4">
+            <div class="avatar w-30">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+
+            <div class="music-details mx-4 w-40">
+              <p>Astro - Fireman</p>
+              <div class="stats flex sb">
+                <div class="stat flex sa ac">
+                  <i class="fas fa-play mx-2"></i> 700
+                </div>
+
+                <div class="stat flex sa ac">
+                  <i class="fas fa-download mx-2"></i>2K
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-item flex px-2 ac mb-2">
+            <div class="avatar w-30">
+              <img src="images/blog-3.jpg" alt="" />
+            </div>
+
+            <div class="music-details mx-4 w-40">
+              <p>Astro - Fireman</p>
+              <div class="stats flex sb">
+                <div class="stat flex sa ac">
+                  <i class="fas fa-play mx-2"></i> 700
+                </div>
+
+                <div class="stat flex sa ac">
+                  <i class="fas fa-download mx-2"></i>2K
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-item flex px-2 ac mb-2">
+            <div class="avatar w-30">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+
+            <div class="music-details mx-4 w-40">
+              <p>Astro - Fireman</p>
+              <div class="stats flex sb">
+                <div class="stat flex sa ac">
+                  <i class="fas fa-play mx-2"></i> 700
+                </div>
+
+                <div class="stat flex sa ac">
+                  <i class="fas fa-download mx-2"></i>2K
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 text-center">
+            <small class="text-primary">View all...</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="music-slider col-12 py-3 mt-2">
+        <h3 class="text-center text-primary mb-3">Top 100 Hits</h3>
+        <div class="featured-carousel owl-carousel">
+          <div class="item">
+            <div class="box bg-secondary py-2 flex f-col ac jc">
+              <img src="music/bola.png" class="rounded" alt="" />
+              <p class="text-light my-1">Classick</p>
+              <p class="text-primary m-0">Bola Kunthanzi</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="box bg-secondary py-2 flex f-col ac jc">
+              <img src="music/tulukani.png" class="rounded" alt="" />
+              <p class="text-light my-1">Blaze</p>
+              <p class="text-primary m-0">Tulukani</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="box bg-secondary py-2 flex f-col ac jc">
+              <img src="music/osama.png" class="rounded" alt="" />
+              <p class="text-light my-1">Bee Jay</p>
+              <p class="text-primary m-0">Osama</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="box bg-secondary py-2 flex f-col ac jc">
+              <img src="music/bwaxy.png" class="rounded" alt="" />
+              <p class="text-light my-1">Bwaxy</p>
+              <p class="text-primary m-0">Samakhala Kwanu</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sign-up-section col-12 py-3 mb-2">
+        <h3 class="text-center text-primary mb-3">Get In!</h3>
+        <div class="container">
+          <div class="col-12 text-center">
+            <img src="images/music file2-09.svg" class="col-11" alt="" />
+          </div>
+          <div class="col-12 flex ac jc">
+            <p class="col-11 text-light justify">
+              Unleash Your Music Experience with Studio
+              <span class="text-primary">X</span>! Stay ahead of the game with
+              the latest hits, exclusive gossip, and fresh vibes. Join us today
+              for free and dive into a world of rhythm and melody. Studio
+              <span class="text-primary">X</span> - Where Music Takes Center
+              Stage. Let the music guide you!
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <button class="btn btn-primary text-light col-11">Sign Up</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="events col-12 py-3 mb-2">
+        <h3 class="text-center text-primary mb-3">Events</h3>
+        <div class="container">
+          <p class="text-light p-1">
+            Buy event tickets here. Make sure you use the promo code
+            <span class="text-primary text-lg">studioX100</span> to get
+            <span class="text-primary text-lg">5% off</span> on your purchase.
+            Please note that Studio X will not be held liable in case off any
+            event or transactional faliures.
+          </p>
+
+          <div class="event flex sa ac px-3 py-1 mb-2 bg-secondary">
+            <div class="col-2 text-center">
+              <h3 class="text-primary">14</h3>
+              <p class="text-light">MAY</p>
+            </div>
+            <div class="col-7">
+              <p class="text-light m-0">
+                <i class="fas fa-map-marker-alt"></i>
+                MUBAS
+              </p>
+              <small class="text-primary m-0">AKA | Gemini Major</small>
+              <p class="text-light">
+                <i class="fas fa-clock"></i>
+                19:00 CAT
+              </p>
+            </div>
+            <div class="col-2">
+              <div class="btn btn-primary text-light">Buy</div>
+            </div>
+          </div>
+
+          <div class="event flex sa ac px-3 py-1 mb-2 bg-secondary">
+            <div class="col-2 text-center">
+              <h3 class="text-primary">25</h3>
+              <p class="text-light">AUG</p>
+            </div>
+            <div class="col-7">
+              <p class="text-light m-0">
+                <i class="fas fa-map-marker-alt"></i>
+                Blantyre sports Club
+              </p>
+              <small class="text-primary m-0">Lawi | Lulu | Namadingo</small>
+              <p class="text-light">
+                <i class="fas fa-clock"></i>
+                14:00 CAT
+              </p>
+            </div>
+            <div class="col-2">
+              <div class="btn btn-primary text-light">Buy</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sign-up-section col-12 py-3 mb-2">
+        <h3 class="text-center text-primary mb-3">Stay Connected</h3>
+        <div class="container">
+          <div class="col-12 text-center">
+            <img
+              src="images/undraw_influencer_re_1fkb.svg"
+              class="col-10"
+              alt=""
+            />
+          </div>
+          <div class="col-12 flex ac jc">
+            <p class="col-11 text-light justify">
+              Stay connected and be part of the Studio
+              <span class="text-primary">X</span> community! Don't miss a beat –
+              join us on your favorite social media platforms. Elevate your
+              music experience, share the rhythm, and groove with us. Link up
+              now and let's ignite the music together!
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i
+                    class="text-light bg-primary rounded fab fa-facebook-f"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="text-light bg-primary rounded fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="text-light bg-primary rounded fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"
+                  ><i class="text-light bg-primary rounded fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-secondary text-white">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+              <h2>Studio <span class="text-primary">X</span></h2>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5>About Us</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                ultricies, dolor sit amet ultrices sodales, nisi nisl
+                consectetur est, ac fermentum mauris sem eget arcu.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5>Contact Us</h5>
+              <p>Old Naisi, Zomba MW</p>
+              <p>Email: info@redddigital.com</p>
+              <p>Phone: +265 234 567 890</p>
+            </div>
+          </div>
+          <hr class="bg-light" />
+          <div class="text-center">
+            <p>
+              &copy; 2023 Studio <span class="text-primary">X </span>. All
+              rights reserved.
+            </p>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      const player = document.querySelector(".music-player");
+      const mainContent = document.getElementById("mainContent");
+      const musicItem = document.querySelectorAll(".item");
+      musicItem.forEach((m) => {
+        m.addEventListener("click", () => {
+          m.classList.toggle("currentTrack");
+          player.classList.toggle("hide");
+          mainContent.classList.toggle("hide");
+        });
+      });
+    </script>
+
+    <script src="js/player.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

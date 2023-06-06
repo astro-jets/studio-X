@@ -1,0 +1,32 @@
+
+
+[
+        {
+            "id": 1,
+            "artist":"Bwaxy",
+            "title":"Samakhala kwanu",
+            "art":"bwaxy.png",
+            "audio":"bwaxy.mp3"
+        },
+        {
+            "id": 2,
+            "artist":"Classick",
+            "title":"Bola Kunthanzi",
+            "art":"bola.png",
+            "audio":"bola.mp3"
+        },
+        {
+            "id": 3,
+            "artist":"Bee Jay",
+            "title":"Osama",
+            "art":"osama.png",
+            "audio":"osama.mp3"
+        },
+        {
+            "id": 4,
+            "artist":"Blaze",
+            "title":"Tulukani",
+            "art":"tulukani.png",
+            "audio":"tulukani.mp3"
+        }
+]
